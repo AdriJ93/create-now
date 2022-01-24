@@ -1,0 +1,58 @@
+.offers {
+  justify-content: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 237px);
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 225px;
+}
+
+.leftCard {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.middle {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.rightCard {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.cards h1 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .cards {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .leftCard {
+  }
+
+  .middle {
+    margin-top: 10%;
+  }
+
+  .rightCard {
+    margin-top: 10%;
+  }
+}
