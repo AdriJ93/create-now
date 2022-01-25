@@ -14,7 +14,7 @@
   margin-top: 10%;
   margin-bottom: 16%;
   background: rgba(0, 0, 0, 0.8);
-  padding: 50px;
+  padding: 30px 80px 50px 80px;
   border-radius: 15px;
 }
 
@@ -45,7 +45,7 @@
 @media screen and (max-width: 1023px) {
   .container {
     margin-top: 20%;
-    height: 450px;
+    height: 550px;
   }
 
   .home {

@@ -93,25 +93,21 @@
   }
 
   .aboutRight {
-    width: 100%;
+    padding: 5%;
+    width: 90%;
   }
 
   .aboutLeft {
-    width: 100%;
+    padding: 5%;
+    width: 90%;
   }
 
   .aboutContainer1 {
-    margin-right: 3%;
-    margin-top: 10%;
   }
 
   .aboutContainer2 {
-    margin-right: 3%;
-    margin-top: 10%;
   }
 
   .aboutContainer3 {
-    margin-left: 4%;
-    margin-bottom: 10%;
   }
 }

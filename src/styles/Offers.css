@@ -40,6 +40,10 @@
 }
 
 @media screen and (max-width: 1023px) {
+  .offers {
+    height: fit-content;
+  }
+
   .cards {
     flex-direction: column;
     margin-top: 10%;

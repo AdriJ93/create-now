@@ -1,7 +1,5 @@
 .impressum {
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 2%;
+  margin: 1% 15% 1% 15%;
 }
