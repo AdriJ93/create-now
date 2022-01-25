@@ -14,7 +14,7 @@ function Offers() {
           </p>
           <ul>
             <li>Material sichten</li>
-            <li>Rogh Cut</li>
+            <li>Rough Cut</li>
             <li>Chronologische Anordnung</li>
             <li>Ton</li>
           </ul>
@@ -29,7 +29,7 @@ function Offers() {
           </p>
           <ul>
             <li>Material sichten</li>
-            <li>Rogh Cut</li>
+            <li>Rough Cut</li>
             <li>Chronologische Anordnung</li>
             <li>Übergänge</li>
             <li>Wunschmusik importieren</li>
