@@ -19,6 +19,9 @@ function Offers() {
             <li>Ton</li>
           </ul>
           <h2>149,00 €</h2>
+          <div className="buttonContainer">
+            <button className="buttonOffers"> Jetzt buchen </button>
+          </div>
         </div>
         <div className="middle">
           <h1>Standard-Paket</h1>
@@ -37,14 +40,20 @@ function Offers() {
             <li>Effekte</li>
           </ul>
           <h2>299,00 €</h2>
+          <div className="buttonContainer">
+            <button className="buttonOffers"> Jetzt buchen </button>
+          </div>
         </div>
         <div className="rightCard">
           <h1>Premium-Paket</h1>
           <p>
             Videobeitrag z.B. für Hochzeitvideos, Fernsehbeiträge,
-            Werbekampagnen und Flogeaufträge
+            Werbekampagnen und Folgeaufträge
           </p>
           <h2>Preis individell nach Aufwand</h2>
+          <div className="buttonContainer">
+            <button className="buttonOffers"> Jetzt buchen </button>
+          </div>
         </div>
       </div>
     </div>
