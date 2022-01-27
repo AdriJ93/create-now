@@ -18,9 +18,11 @@ function Offers() {
             <li>Chronologische Anordnung</li>
             <li>Ton</li>
           </ul>
-          <h2>149,00 €</h2>
-          <div className="buttonContainer">
-            <button className="buttonOffers"> Jetzt buchen </button>
+          <div className="cardBottomLeft">
+            <h2>149,00 €</h2>
+            <div className="buttonDiv">
+              <button className="buttonOffers"> Jetzt buchen </button>
+            </div>
           </div>
         </div>
         <div className="middle">
@@ -39,9 +41,11 @@ function Offers() {
             <li>Color Correction</li>
             <li>Effekte</li>
           </ul>
-          <h2>299,00 €</h2>
-          <div className="buttonContainer">
-            <button className="buttonOffers"> Jetzt buchen </button>
+          <div className="cardBottomMiddle">
+            <h2>299,00 €</h2>
+            <div className="buttonDiv">
+              <button className="buttonOffers"> Jetzt buchen </button>
+            </div>
           </div>
         </div>
         <div className="rightCard">
@@ -50,9 +54,11 @@ function Offers() {
             Videobeitrag z.B. für Hochzeitvideos, Fernsehbeiträge,
             Werbekampagnen und Folgeaufträge
           </p>
-          <h2>Preis individell nach Aufwand</h2>
-          <div className="buttonContainer">
-            <button className="buttonOffers"> Jetzt buchen </button>
+          <div className="cardBottomRight">
+            <h2>Preis individell</h2>
+            <div className="buttonDiv">
+              <button className="buttonOffers"> Jetzt buchen </button>
+            </div>
           </div>
         </div>
       </div>

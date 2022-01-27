@@ -3,7 +3,7 @@
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 237px);
+  height: calc(100vh - 261px);
 }
 
 .cards {
@@ -45,12 +45,42 @@
 }
 
 .cards h1 {
-  font-size: 30px;
   text-align: center;
 }
 
+.cards h2 {
+  text-align: end;
+}
+
+.cardBottomLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.cardBottomMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.cardBottomRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .buttonOffers {
-  margin-top: 30px;
+  width: fit-content;
   border-radius: 5px;
   border: none;
   color: white;
@@ -60,9 +90,9 @@
   font-size: 20px;
 }
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
+.buttonOffers:hover {
+  background-color: white; /* Green */
+  color: black;
 }
 
 @media screen and (max-width: 1023px) {
