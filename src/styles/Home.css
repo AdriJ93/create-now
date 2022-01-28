@@ -11,11 +11,12 @@
   flex-direction: column;
   text-align: center;
   color: white;
-  margin-top: 12%;
-  margin-bottom: 17%;
   background: rgba(0, 0, 0, 0.8);
   padding: 75px 80px 50px 80px;
   border-radius: 15px;
+  height: fit-content;
+  margin-top: 10%;
+  padding-bottom: 75px;
 }
 
 .container h1 {
@@ -45,12 +46,12 @@
 
 @media screen and (max-width: 1023px) {
   .container {
-    margin-top: 20%;
     height: 550px;
   }
 
   .home {
     height: auto;
+    padding: 5% 5% 5% 5%;
   }
 
   .home h1 {
