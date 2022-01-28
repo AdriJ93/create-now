@@ -3,7 +3,7 @@
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 74vh;
+  height: calc(100vh - 261px);
 }
 
 .cards {
@@ -52,10 +52,13 @@
   text-align: end;
 }
 
+<<<<<<< HEAD
 ul {
   margin-left: 60px;
 }
 
+=======
+>>>>>>> 39a0c01d24a41936dc2a07e6a804322b7b677813
 .cardBottomLeft {
   display: flex;
   flex-direction: column;
@@ -81,7 +84,10 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
   padding-top: 15px;
+=======
+>>>>>>> 39a0c01d24a41936dc2a07e6a804322b7b677813
 }
 
 .buttonOffers {
