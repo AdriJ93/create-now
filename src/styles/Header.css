@@ -71,6 +71,11 @@
     transition: all 0.5s ease;
     z-index: 1;
   }
+  .nav-logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
 
   .nav-links {
     padding: 1.5rem;
@@ -81,16 +86,12 @@
   .nav-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 25px;
+    right: 15px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
     color: white;
-  }
-
-  .nav-logo {
-    margin-right: 13rem;
   }
 
   .nav-container {
