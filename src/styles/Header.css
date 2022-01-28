@@ -71,6 +71,10 @@
     transition: all 0.5s ease;
     z-index: 1;
   }
+
+  .nav-logo-div {
+    margin-left: 10px;
+  }
   .nav-logo {
     height: 70px;
     display: flex;

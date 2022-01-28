@@ -109,4 +109,8 @@ form button:hover {
     margin-left: 10%;
     margin-bottom: 15%;
   }
+
+  .leftContactSide h1 {
+    font-size: 60px;
+  }
 }

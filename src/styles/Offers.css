@@ -102,21 +102,24 @@ ul {
 
 @media screen and (max-width: 1023px) {
   .offers {
-    height: fit-content;
+    height: auto;
   }
 
   .cards {
     flex-direction: column;
     margin-top: 10%;
+    height: 2200px;
   }
 
   .leftCard {
     width: 90%;
+    height: 660px;
   }
 
   .middle {
     margin-top: 10%;
     width: 90%;
+    height: 750px;
   }
 
   .rightCard {

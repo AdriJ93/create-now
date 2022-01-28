@@ -46,11 +46,19 @@
 @media screen and (max-width: 1023px) {
   .container {
     margin-top: 20%;
-    height: 600px;
+    height: 550px;
   }
 
   .home {
-    padding-left: 5%;
-    padding-right: 5%;
+    height: auto;
+  }
+
+  .home h1 {
+    font-size: 25px;
+  }
+
+  .home p {
+    margin-top: 10%;
+    font-size: 20px;
   }
 }
