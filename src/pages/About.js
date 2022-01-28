@@ -30,7 +30,10 @@ function About() {
       </div>
       <div className="aboutRight">
         <div className="aboutContainer1">
-          <h2>CREATE NOW – Die Geschichte</h2>
+          <h2>
+            CREATE NOW – Die Geschichte <br />
+            <br />
+          </h2>
           <p>
             Seinen Anfang nahm alles vor ca. 10 Jahren, eine Freundschaft wurde
             geknüpft, doch die beruflichen Wege verliefen getrennt. Adrian Wulf
@@ -44,7 +47,10 @@ function About() {
           </p>
         </div>
         <div className="aboutContainer2">
-          <h2>Unsere Vision</h2>
+          <h2>
+            Unsere Vision <br />
+            <br />
+          </h2>
           <p>
             In der heutigen Zeit spielt sich ein Großteil des Lebens “online”
             und “visuell” ab, sei es das alt bekannte Fernsehen oder moderne

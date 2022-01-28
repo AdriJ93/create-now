@@ -18,6 +18,15 @@
   color: white;
 }
 
+.social {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+.social:hover {
+  color: white;
+}
+
 .row1 {
   display: flex;
   gap: 20px;

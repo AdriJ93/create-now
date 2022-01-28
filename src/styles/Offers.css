@@ -3,7 +3,7 @@
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 237px);
+  height: 74vh;
 }
 
 .cards {
@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .leftCard {
@@ -21,7 +21,7 @@
   margin: 0% 1% 0% 2%;
   border-radius: 15px;
   width: 33%;
-  height: 400px;
+  height: 500px;
 }
 
 .middle {
@@ -31,7 +31,7 @@
   margin: 0% 1% 0% 1%;
   border-radius: 15px;
   width: 33%;
-  height: 450px;
+  height: 600px;
 }
 
 .rightCard {
@@ -41,16 +41,51 @@
   margin: 0% 2% 0% 1%;
   border-radius: 15px;
   width: 33%;
-  height: 400px;
+  height: 500px;
 }
 
 .cards h1 {
-  font-size: 30px;
   text-align: center;
 }
 
+.cards h2 {
+  text-align: end;
+}
+
+ul {
+  margin-left: 60px;
+}
+
+.cardBottomLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.cardBottomMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.cardBottomRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15px;
+}
+
 .buttonOffers {
-  margin-top: 30px;
+  width: fit-content;
   border-radius: 5px;
   border: none;
   color: white;
@@ -60,9 +95,9 @@
   font-size: 20px;
 }
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
+.buttonOffers:hover {
+  background-color: white; /* Green */
+  color: black;
 }
 
 @media screen and (max-width: 1023px) {
@@ -76,13 +111,17 @@
   }
 
   .leftCard {
+    width: 90%;
   }
 
   .middle {
     margin-top: 10%;
+    width: 90%;
   }
 
   .rightCard {
+    width: 90%;
     margin-top: 10%;
+    margin-bottom: 10%;
   }
 }

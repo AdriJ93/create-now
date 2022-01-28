@@ -5,7 +5,7 @@
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 237px);
+  height: 74vh;
 }
 
 .leftContactSide {
@@ -92,12 +92,15 @@ form button:hover {
   }
 
   .leftContactSide {
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding-left: 10%;
   }
 
   .rightContactSide {
+    margin-top: 5%;
+    width: 55%;
     justify-content: center;
   }
 

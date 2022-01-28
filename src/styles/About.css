@@ -4,12 +4,12 @@
   justify-content: center;
   background-repeat: repeat;
   background-size: cover;
-  height: calc(100vh - 237px);
+  height: 74vh;
 }
 
 .aboutRight {
   width: 50%;
-  padding-top: 4%;
+  padding-top: 6%;
   padding-right: 1%;
   padding-bottom: 5%;
   padding-left: 5%;
@@ -18,7 +18,7 @@
 
 .aboutLeft {
   width: 50%;
-  padding-top: 4%;
+  padding-top: 6%;
   padding-left: 1%;
   padding-bottom: 5%;
   padding-right: 5%;
@@ -81,8 +81,8 @@
 }
 
 .box img {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   width: 90%;
 }
 
@@ -94,12 +94,12 @@
 
   .aboutRight {
     padding: 5%;
-    width: 90%;
+    width: 100%;
   }
 
   .aboutLeft {
     padding: 5%;
-    width: 90%;
+    width: 100%;
   }
 
   .aboutContainer1 {

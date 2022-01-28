@@ -8,7 +8,20 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="row1">
-        <InstagramIcon /> <FacebookIcon />
+        <Link
+          className="social"
+          to={{ pathname: "https://www.instagram.com/creative_now_/" }}
+          target="_blank"
+        >
+          <InstagramIcon />
+        </Link>
+        <Link
+          className="social"
+          to="https://www.facebook.com/Create-Now-112376451348354"
+          target="_blank"
+        >
+          <FacebookIcon />
+        </Link>
       </div>
       <div className="row2">
         <Link className="linkItem" to="/impressum">
