@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .leftCard {
@@ -21,7 +21,7 @@
   margin: 0% 1% 0% 2%;
   border-radius: 15px;
   width: 33%;
-  height: 500px;
+  height: auto;
 }
 
 .middle {
@@ -31,7 +31,7 @@
   margin: 0% 1% 0% 1%;
   border-radius: 15px;
   width: 33%;
-  height: 600px;
+  height: auto;
 }
 
 .rightCard {
@@ -41,7 +41,7 @@
   margin: 0% 2% 0% 1%;
   border-radius: 15px;
   width: 33%;
-  height: 500px;
+  height: auto;
 }
 
 .cards h1 {
@@ -107,19 +107,22 @@ ul {
 
   .cards {
     flex-direction: column;
-    height: 1800px;
+    height: auto;
   }
 
   .leftCard {
     width: 90%;
+    margin-top: 10%;
   }
 
   .middle {
     width: 90%;
+    margin-top: 10%;
   }
 
   .rightCard {
     width: 90%;
+    margin-top: 10%;
     margin-bottom: 10%;
   }
 
