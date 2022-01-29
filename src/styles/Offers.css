@@ -3,7 +3,7 @@
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 261px);
+  height: 88vh;
 }
 
 .cards {
@@ -113,18 +113,19 @@ ul {
 
   .leftCard {
     width: 90%;
-    height: 660px;
+    height: 30%;
   }
 
   .middle {
     margin-top: 10%;
     width: 90%;
-    height: 750px;
+    height: 35%;
   }
 
   .rightCard {
     width: 90%;
     margin-top: 10%;
     margin-bottom: 10%;
+    height: 25%;
   }
 }
