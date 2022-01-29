@@ -107,25 +107,19 @@ ul {
 
   .cards {
     flex-direction: column;
-    margin-top: 10%;
-    height: 2200px;
+    height: 1800px;
   }
 
   .leftCard {
     width: 90%;
-    height: 30%;
   }
 
   .middle {
-    margin-top: 10%;
     width: 90%;
-    height: 35%;
   }
 
   .rightCard {
     width: 90%;
-    margin-top: 10%;
     margin-bottom: 10%;
-    height: 25%;
   }
 }
