@@ -74,7 +74,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 30%;
+  margin-top: 31%;
 }
 
 .buttonDiv {
@@ -121,5 +121,9 @@ ul {
   .rightCard {
     width: 90%;
     margin-bottom: 10%;
+  }
+
+  .cardBottomRight {
+    margin-top: 45%;
   }
 }
