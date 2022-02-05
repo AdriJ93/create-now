@@ -28,7 +28,12 @@ function Offers() {
           <div className="cardBottomLeft">
             <h2>149,00 €</h2>
             <div className="buttonDiv">
-              <button className="buttonOffers"> Jetzt buchen </button>
+              <a
+                href="https://create-now-shop.myshopify.com/products/create-now-einsteiger-paket"
+                target="_blank"
+              >
+                <button className="buttonOffers"> Jetzt buchen </button>
+              </a>
             </div>
           </div>
         </div>
@@ -59,7 +64,12 @@ function Offers() {
           <div className="cardBottomMiddle">
             <h2>299,00 €</h2>
             <div className="buttonDiv">
-              <button className="buttonOffers"> Jetzt buchen </button>
+              <a
+                href="https://create-now-shop.myshopify.com/products/create-now-standard-paket"
+                target="_blank"
+              >
+                <button className="buttonOffers"> Jetzt buchen </button>
+              </a>
             </div>
           </div>
         </div>
@@ -78,7 +88,7 @@ function Offers() {
           <div className="cardBottomRight">
             <h2>Preis individell</h2>
             <div className="buttonDiv">
-              <button className="buttonOffers"> Jetzt buchen </button>
+              <button className="buttonOffers"> bald verfügbar </button>
             </div>
           </div>
         </div>
