@@ -62,7 +62,7 @@ function Offers() {
             <li>Subtitles</li>
           </ul>
           <div className="cardBottomMiddle">
-            <h2>369,00 €</h2>
+            <h2>359,00 €</h2>
             <div className="buttonDiv">
               <a
                 href="https://create-now-shop.myshopify.com/products/create-now-standard-paket"
