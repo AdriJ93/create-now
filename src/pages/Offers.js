@@ -26,7 +26,7 @@ function Offers() {
             <li>Color Grading</li>
           </ul>
           <div className="cardBottomLeft">
-            <h2>149,00 €</h2>
+            <h2>179,00 €</h2>
             <div className="buttonDiv">
               <a
                 href="https://create-now-shop.myshopify.com/products/create-now-einsteiger-paket"
@@ -62,7 +62,7 @@ function Offers() {
             <li>Subtitles</li>
           </ul>
           <div className="cardBottomMiddle">
-            <h2>299,00 €</h2>
+            <h2>369,00 €</h2>
             <div className="buttonDiv">
               <a
                 href="https://create-now-shop.myshopify.com/products/create-now-standard-paket"
